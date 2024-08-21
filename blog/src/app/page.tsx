@@ -1,6 +1,6 @@
 'use client'
 import Link from "next/link";
-import styles from "./page.module.css";
+
 import {useRouter} from "next/navigation"
 
 export default function Home() {
@@ -10,7 +10,7 @@ export default function Home() {
   }
   return (
     <main>
-      <h1>PAK ANGRO TRADERS | BABAR BAMSI </h1>
+      <h1 className="logo">PAK ANGRO TRADERS | BABAR BAMSI </h1>
       <Link href="/login">Go To Login Page</Link>
       <br></br>
       <br></br>
@@ -25,3 +25,4 @@ export default function Home() {
 
   )
 }
+

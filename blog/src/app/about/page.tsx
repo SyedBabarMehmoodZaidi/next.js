@@ -12,6 +12,8 @@ const about =()=>{
             <br />
             <br />
             <Link href="/about/aboutcollege">Go To About College Page</Link>
+            <br />
+            <br />
             <Link href="/about/aboutstudent">Go To About Student Page</Link>
         </div>
     )
