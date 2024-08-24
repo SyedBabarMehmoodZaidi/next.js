@@ -6,7 +6,7 @@ const about =()=>{
     return(
         <div>
             <h1>ABOUT PAGE</h1>
-            <Link href="/">Go To Home Page</Link><br></br>
+            <Link href="/" className="btncolor">Go To Home Page</Link><br></br>
             <br></br>
             <button onClick={()=>router.push("/")}>Go To Home Page</button>
             <br />

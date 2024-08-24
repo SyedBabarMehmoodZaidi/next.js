@@ -2,3 +2,10 @@
     background-color: yellowgreen;
     color: black;
   }
+
+  .btncolor{
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    
+  }

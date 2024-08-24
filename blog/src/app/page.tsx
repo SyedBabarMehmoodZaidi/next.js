@@ -10,6 +10,7 @@ export default function Home() {
   }
   return (
     <main>
+      
       <h1 className="logo">PAK ANGRO TRADERS | BABAR BAMSI </h1>
       <Link href="/login">Go To Login Page</Link>
       <br></br>
@@ -17,10 +18,10 @@ export default function Home() {
       <Link href="/about">Go To About Page</Link>
       <br></br>
       <br></br>
-      <button onClick={()=>navigate("/login")}>Go To Login Page</button>
+      <button className="btncolor" onClick={()=>navigate("/login")}>Go To Login Page</button>
       <br></br>
       <br></br>
-      <button onClick={()=>navigate("/about")}>Go To About Page</button>
+      <button className="btncolor" onClick={()=>navigate("/about")}>Go To About Page</button>
       </main> 
 
   )
